@@ -1,0 +1,9 @@
+0 6 * * * touch /Users/Richard/Desktop/cron-jobs/start/File
+1 6 * * * mv /Users/Richard/Desktop/cron-jobs/start/File /Users/Richard/Desktop/cron-jobs/destination/
+2 6 * * * rm /Users/Richard/Desktop/cron-jobs/destination/File
+
+This crontab schedules to create a file named "File" within /Users/Richard/Desktop/cron-jobs/start/ at 6:00 AM of every day of the month, every month and every day of the week.
+
+The following minute at 6:01 AM, "File" is moved with the command "mv" to /Users/Richard/Desktop/cron-jobs/destination/
+
+And the following minute at 6:02 AM, "File" is deleted with the command "rm".
