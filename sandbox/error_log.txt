@@ -1,0 +1,1 @@
+[13-Nov-2014 15:40:00 America/Chicago] PHP Notice:  Undefined variable: error in /media/sf_sandbox/index.php on line 13
